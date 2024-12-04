@@ -1,0 +1,20 @@
+{
+  "hyprland/workspaces": {
+    "on-scroll-up": "hyprctl dispatch workspace r+1",
+    "on-scroll-down": "hyprctl dispatch workspace r-1",
+
+    "format": "{name} - {windows}",
+
+    "format-window-separator": "\n",
+    "window-rewrite-default": " ",
+    "window-rewrite": {
+      "class<zen-alpha>": " ",
+      "class<Slack>": " ",
+      "class<org.wezfurlong.wezterm>": " ",
+      "class<teams-for-linux>": "󰊻 ",
+      "class<vesktop>": "󰙯 ",
+      "class<Google-chrome>": " "
+      "class<psst-gui>": " "
+    }
+  }
+}
